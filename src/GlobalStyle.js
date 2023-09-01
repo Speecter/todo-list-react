@@ -1,17 +1,17 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-  html {
-    box-sizing: border-box;
-  }
+    html {
+        box-sizing: border-box;
+    }
 
-  *, ::after, ::before {
-    box-sizing: inherit;
-  }
+    *, ::after, ::before {
+        box-sizing: inherit;
+    }
 
-  body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #eee;
-    word-break: break-word;
-}
+    body {
+        margin: 0 auto;
+        font-family: 'Montserrat', sans-serif;
+        background-color: ${({ theme }) => theme.color.alto};
+    }
 `;

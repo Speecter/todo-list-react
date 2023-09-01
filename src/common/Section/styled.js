@@ -1,21 +1,29 @@
 import styled from "styled-components";
 
-export const Header = styled.header`
-  padding: 20px;
-  background-color: white;
-  margin-top: 10px;
-  margin-bottom: 2px;
-  box-shadow: 1px 1px 3px #ddd;
-  display: grid;
-  grid-template-columns: 1fr auto;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    grid-template-columns: 1fr;
-    grid-gap: 30px;
-  }
+export const Segment = styled.section`
+    margin: 10px;
+    background-color: ${({ theme }) => theme.color.white};
+`;
+
+export const Header = styled.header`
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    grid-gap: 20px;
+    align-items: center;
+    padding: 20px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        grid-template-columns: 1fr;
+    }
 `;
 
 export const Title = styled.h2`
-  font-size: 20px;
-  margin: 0;
+    margin: 0;
+`;
+
+export const Content = styled.div`
+    padding: 20px;
+    border-top: 1px solid ${({ theme }) => theme.color.alto};
 `;

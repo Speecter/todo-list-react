@@ -1,9 +1,16 @@
 export const theme = {
-  color: {
-    background: "teal",
-    font: "white",
-  },
-  breakpoint: {
-    mobileMax: 767,
-  },
+    color: {
+        black: "#000",
+        silver: "#ccc",
+        alto: "#ddd",
+        gallery: "#eee",
+        white: "#fff",
+        teal: "#008080",
+        crimson: "#db143c",
+        forestGreen: "#228c22",
+    },
+    
+    breakpoints: {
+        mobileMax: 767,
+    },
 };
