@@ -45,10 +45,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ### Technologies used in this project:
-
-- HTML, BEM convention
-- CSS, normalize.css, flexbox, CSS Grid
-- JavaScript ES6+ features
-- React, React-DOM, Babel
-- custom hooks,
-- Styled-components,
+- HTML
+- CSS
+- React JS
+- create-react-app
+- Redux
+- @reduxjs/toolkit
+- react-redux
+- styled-components
+- Webpack
+- Babel
+- JavaScript
+- useState
+- useEffect
+- useRef
+- custom hooks
+- localStorage
+- BEM
+- ES6+ features
+- Grid layout
+- Flex
+- @media queries
