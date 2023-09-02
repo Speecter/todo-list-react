@@ -1,6 +1,6 @@
 # To do list
 
-![header image](./public/background.png)
+![header image](./public/demo.gif)
 
 ## Description
 
