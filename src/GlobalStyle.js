@@ -5,13 +5,16 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    *, ::after, ::before {
+    *, ::before, ::after {
         box-sizing: inherit;
     }
 
     body {
+        box-sizing: border-box;
+        max-width: 1000px;
         margin: 0 auto;
-        font-family: 'Montserrat', sans-serif;
-        background-color: ${({ theme }) => theme.color.alto};
+        font-family: 'Open Sans', sans-serif;
+        word-break: break-word;
+        background-color: ${({theme}) => theme.colors.lightGrey};
     }
 `;

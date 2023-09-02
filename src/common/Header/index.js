@@ -1,9 +1,9 @@
-import { Title } from "./styled";
+import { Header } from "./styled";
 
-const Header = ({ title }) => (
-  <Title>
-    <h1>{title}</h1>
-  </Title>
+const TitleHeader = ({ title }) => (
+    <Header>
+        <h1>{title}</h1>
+    </Header>
 );
 
-export default Header;
+export default TitleHeader
